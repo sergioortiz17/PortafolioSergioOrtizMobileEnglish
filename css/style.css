@@ -299,7 +299,8 @@ nav .enlaces a:hover {
 
 .service-title {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 .service-title h2 {
   margin-left: 50px;
