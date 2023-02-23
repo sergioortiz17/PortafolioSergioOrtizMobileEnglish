@@ -295,6 +295,8 @@ nav .enlaces a:hover {
   padding: 30px;
   transition: all 1500ms;
   background-color: black;
+  align-items: center;
+  justify-content: center;
 }
 
 .service-title {
