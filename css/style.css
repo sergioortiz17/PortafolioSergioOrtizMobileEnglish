@@ -869,3 +869,9 @@ footer {
     font-size: 11px;
   }
 }
+@media (min-width: 768px) {
+  .col-md-4 {
+    display: inline-flex;
+    width: 33%;
+  }
+}
