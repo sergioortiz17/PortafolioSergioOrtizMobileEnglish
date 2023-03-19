@@ -623,8 +623,8 @@ footer {
   color: #ffde29;
 }
 
-/*************************** WHATSAPP FLOAT */
-.float {
+/*************************** WHATSAPP and LINKEIND FLOAT */
+.float1 {
   position: fixed;
   width: 60px;
   height: 60px;
@@ -637,9 +637,27 @@ footer {
   font-size: 30px;
   z-index: 100;
 }
-
+.float2 {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 120px;
+  right: 40px;
+  background-color: #0A66C2;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 40px;
+  z-index: 250;
+}
 .my-float {
   margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .float2  {
+    bottom: 150px;
+  }
 }
 
 /************************** MEDIAS QUERIES */
